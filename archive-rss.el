@@ -27,7 +27,7 @@
   (with-current-buffer (url-retrieve-synchronously
 			(concat "https://archive.org/services/search/beta/page_production/?user_query="
 				query
-				"&hits_per_page=100&page=1&filter_map=%7B%22mediatype%22%3A%7B%22texts%22%3A%22inc%22%7D%7D&sort=addeddate%3Adesc&aggregations=false&uid=R%3Ab7684b722de3414a968d-S%3Aa487428fc9e0df6ed005-P%3A1-K%3Ah-T%3A1736113973501")
+				"&hits_per_page=500&page=1&filter_map=%7B%22mediatype%22%3A%7B%22texts%22%3A%22inc%22%7D%7D&sort=addeddate%3Adesc&aggregations=false&uid=R%3Ab7684b722de3414a968d-S%3Aa487428fc9e0df6ed005-P%3A1-K%3Ah-T%3A1736113973501")
 			nil t 60)
     (goto-char (point-min))
     (unwind-protect
