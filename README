@@ -1,0 +1,9 @@
+This tiny Emacs package creates an RSS feed based on newly uploaded
+files to archive.org.
+
+By default, it only returns media of type "texts", but you can alter
+the search string as required.
+
+Usage example:
+
+emacs -Q -batch -l archive-rss.el --eval '(archive-rss "/tmp/archive.rss")'
